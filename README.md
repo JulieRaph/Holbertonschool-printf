@@ -65,7 +65,7 @@ To test our code, we created our own test file.
 
 ## Flowchart
 
-![flowchart](Flowchart.png)
+![flowchart](Flowchart.jpg)
 
 ## Authors
 
