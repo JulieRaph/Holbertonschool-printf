@@ -19,7 +19,7 @@ This is a new project to create a custom function _printf of the standard functi
 First, create a repository on your github and clone the link with your terminal.
 Then, the best thing would be to create a flowchart to give your code a guideline.
 You add a main function and a header file to introduce the library and all the functions called, and start creating your custom function _printf.
-Compile your program with the command ![gcc](https://img.shields.io/badge/gcc-gray?style=plastic&logo=gcc)
+Compile your program with the command ![gcc](https://img.shields.io/badge/gcc---Wall%20--Werror%20--Wextra%20--pedantic%20--std=gnu89%20--Wno--format%20*.c-gray?style=flat)
 
 ## Requirements for this project
 
@@ -60,8 +60,7 @@ _printf("the integer is %d\n '-2')
 ## Man page
 
 For this custom function, we've also created a manual review to provide a clear explanation of our function, with the name "man_3_printf"
-
-To test our code, we created our own test file.
+To test our code, Holberton School sent us a test program with which we validated our code.
 
 ## Flowchart
 
