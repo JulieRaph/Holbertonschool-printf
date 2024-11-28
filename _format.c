@@ -1,31 +1,28 @@
 #include "main.h"
 
 /**
- * _format - function all character specifier
- *@specifier: conversion specifier
- *@args: arguments list
- *Return: specifiers
-*/
-
-int _format(const char specifier, va_list args)
+ * _format - function types.
+ * @type: conversion types.
+ * @args: arguments.
+ * Return: types.
+ */
+int _format(const char type, va_list args)
 {
-	spec_t specifiers[] = {
-		{'c', print_char},
-		{'s', print_string},
-		{'%', print_percent},
-		{'d', print_int},
-		{'i', print_int},
+	types_t types[] = {
+		{'c', _char},
+		{'s', _string},
+		{'%', _percent},
+		{'d', _int},
+		{'i', _int},
 		{'\0', NULL}
 	};
-
 	int i = 0;
 
-	while (specifiers[i].specifier)
+	while (types[i].type)
 	{
-		if (specifiers[i].specifier == specifier)
-			return (specifiers[i].f(args));
+		if (types[i].type == type)
+			return (types[i].f(args));
 		i++;
 	}
-
 	return (0);
 }
