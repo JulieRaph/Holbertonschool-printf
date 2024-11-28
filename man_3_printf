@@ -1,0 +1,62 @@
+FUNCTION _PRINTF
+
+NAME:
+	_printf
+
+SYNOPSIS:
+
+	#include "main.h"
+	int _printf(const char *format, ...);
+
+DESCRIPTION:
+
+	This function _printf produces output according to a format.
+	_printf write output to stdout, the standard output stream.
+
+FORMAT:
+
+	Format is a character string. The format string is composed of
+	zero or more directives. The format can contain conversion specifiers,
+	which begin with a '%' character, are available:
+
+CONVERSION SPECIFIERS:
+
+	'c' : print a char
+	's' : print a string
+	'%' : print a percent character
+	'd' and 'i' : print an integer
+
+EXAMPLES:
+
+	_printf("character is %c\n", 'P');
+	output : character is P
+
+	_printf("the string is %s\n", "Hello World");
+	output : the string is Hello World
+
+	_printf("the percent is %%\n");
+	output : the percent is %
+
+	_printf("the integer is %i\n", '1');
+	output : the integer is 1
+
+	_printf("the decimal is %d\n", '-2');
+	output : the decimal is -2
+
+RETURN VALUE:
+
+	_printf returns the numbers of characters printed, or returns -1 if error.
+
+AUTHORS:
+
+	List of the coworkers to this project
+
+	Mickael CHAUVIN <alphadesnoc@gmail.com>
+	 Co-Developer
+
+	Julie TOLVE <julie.tolve@gmail.com>
+	 Co-Developer
+
+NOTE : for more informations to this function, you can see the same function printf. 
+
+
