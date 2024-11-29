@@ -3,7 +3,6 @@
 /**
  * _int - print integer.
  * @args: arguments.
- *
  * Return: count chars.
  */
 

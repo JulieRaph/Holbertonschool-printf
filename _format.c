@@ -6,6 +6,7 @@
  * @args: arguments.
  * Return: types.
  */
+
 int _format(const char type, va_list args)
 {
 	types_t types[] = {
@@ -14,6 +15,7 @@ int _format(const char type, va_list args)
 		{'%', _percent},
 		{'d', _int},
 		{'i', _int},
+		{'u', _unsigned},
 		{'\0', NULL}
 	};
 	int i = 0;

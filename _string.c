@@ -3,7 +3,6 @@
 /**
  * _string - writes the string to stdout
  * @args: The string to print
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -23,5 +22,4 @@ int _string(va_list args)
 	}
 
 	return (i);
-
 }

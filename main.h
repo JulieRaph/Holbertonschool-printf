@@ -21,6 +21,7 @@ typedef struct types
 	int (*f)(va_list);
 } types_t;
 
+int _unsigned(va_list args);
 int _format(const char type, va_list args);
 int _percent(va_list args);
 int _putchar(char c);
