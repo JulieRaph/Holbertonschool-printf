@@ -39,7 +39,7 @@ The code must be as readable and clear as possible. Here are the functions used:
 | int _format(const char specifier, va_list args) 	|  int _string(va_list args) 	|
 |               int _putchar(char c)              	| int _percent(va_list args) 	|
 |                                                 	|   int _int(va_list args)   	|
-                                                        int unsigned(va_list args)
+|                                                   |   int unsigned(va_list args)|
 
 ## Examples
 
@@ -76,5 +76,3 @@ To test our code, Holberton School sent us a test program with which we validate
 ![Julie](https://img.shields.io/badge/Julie-TOLVE-blue?labelColor=GRAY&style=social)
 
 ![Link](https://img.shields.io/badge/Link-https://github.com/JulieRaph-grey?style=flat)
-
-[![Julie TOLVE](https://img.shields.io/badge/Julie-TOLVE-blue?labelColor=GRAY&style=social)](https//github.com/JulieRaph)
