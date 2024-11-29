@@ -35,10 +35,11 @@ The code must be as readable and clear as possible. Here are the functions used:
 
 |                  **Functions**                  	|     **Functions specifiers**    	|
 |:-----------------------------------------------:	|:-------------------------------:	|
-|       int _printf(const char *format, ...)      	|   int print_char(va_list args)  	|
-| int _format(const char specifier, va_list args) 	|  int print_string(va_list args) 	|
-|               int _putchar(char c)              	| int print_percent(va_list args) 	|
-|                                                 	|   int print_int(va_list args)   	|
+|       int _printf(const char *format, ...)      	|   int _char(va_list args)  	|
+| int _format(const char specifier, va_list args) 	|  int _string(va_list args) 	|
+|               int _putchar(char c)              	| int _percent(va_list args) 	|
+|                                                 	|   int _int(va_list args)   	|
+                                                        int unsigned(va_list args)
 
 ## Examples
 
